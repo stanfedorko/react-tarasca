@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/react-tarasca/static/css/main.30b38865.chunk.css",
+    "main.js": "/react-tarasca/static/js/main.10b5ad5d.chunk.js",
+    "main.js.map": "/react-tarasca/static/js/main.10b5ad5d.chunk.js.map",
+    "runtime-main.js": "/react-tarasca/static/js/runtime-main.7265ba4a.js",
+    "runtime-main.js.map": "/react-tarasca/static/js/runtime-main.7265ba4a.js.map",
+    "static/js/2.309f3ba9.chunk.js": "/react-tarasca/static/js/2.309f3ba9.chunk.js",
+    "static/js/2.309f3ba9.chunk.js.map": "/react-tarasca/static/js/2.309f3ba9.chunk.js.map",
+    "index.html": "/react-tarasca/index.html",
+    "precache-manifest.36f7b97877b19c94d73517fcf935790e.js": "/react-tarasca/precache-manifest.36f7b97877b19c94d73517fcf935790e.js",
+    "service-worker.js": "/react-tarasca/service-worker.js",
+    "static/css/main.30b38865.chunk.css.map": "/react-tarasca/static/css/main.30b38865.chunk.css.map",
+    "static/js/2.309f3ba9.chunk.js.LICENSE.txt": "/react-tarasca/static/js/2.309f3ba9.chunk.js.LICENSE.txt",
+    "static/media/about-img.svg": "/react-tarasca/static/media/about-img.f0913788.svg",
+    "static/media/card-04.png": "/react-tarasca/static/media/card-04.42c4d060.png",
+    "static/media/card-05.png": "/react-tarasca/static/media/card-05.3c5c934c.png",
+    "static/media/card-12.png": "/react-tarasca/static/media/card-12.cd61401c.png",
+    "static/media/card-17.png": "/react-tarasca/static/media/card-17.efff5ad0.png",
+    "static/media/card-26.png": "/react-tarasca/static/media/card-26.b7f8d466.png",
+    "static/media/card-29.png": "/react-tarasca/static/media/card-29.6eaaad5f.png",
+    "static/media/card-34.png": "/react-tarasca/static/media/card-34.e9d9fa7e.png",
+    "static/media/card-45.png": "/react-tarasca/static/media/card-45.0c3331a5.png",
+    "static/media/card-48.png": "/react-tarasca/static/media/card-48.4083de86.png",
+    "static/media/card-50.png": "/react-tarasca/static/media/card-50.3b877445.png",
+    "static/media/circle-icon-1.svg": "/react-tarasca/static/media/circle-icon-1.1efcfa27.svg",
+    "static/media/circle-icon-2.svg": "/react-tarasca/static/media/circle-icon-2.22e3792a.svg",
+    "static/media/circle-icon-3.svg": "/react-tarasca/static/media/circle-icon-3.7471ba2b.svg",
+    "static/media/danger-figure.svg": "/react-tarasca/static/media/danger-figure.b6121005.svg",
+    "static/media/faq-box-img.png": "/react-tarasca/static/media/faq-box-img.93cfafc8.png",
+    "static/media/footer-logo.svg": "/react-tarasca/static/media/footer-logo.dfcd4a92.svg",
+    "static/media/logo.svg": "/react-tarasca/static/media/logo.63cfca88.svg",
+    "static/media/primary-figure.svg": "/react-tarasca/static/media/primary-figure.528956ce.svg",
+    "static/media/warning-figure.svg": "/react-tarasca/static/media/warning-figure.396c0f89.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7265ba4a.js",
+    "static/js/2.309f3ba9.chunk.js",
+    "static/css/main.30b38865.chunk.css",
+    "static/js/main.10b5ad5d.chunk.js"
+  ]
+}
