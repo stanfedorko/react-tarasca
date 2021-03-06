@@ -1,0 +1,66 @@
+.section {
+  padding: 100px 0;
+  position: relative;
+  &--title {
+    margin-bottom: 40px;
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 20px;
+    }
+  }
+  &--subtitle {
+    margin-bottom: 60px;
+    line-height: 32px;
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.section--luminous-point {
+  margin: 50px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  img {
+    filter: blur(10px);
+    width: 100%;
+    max-width: 35px;
+  }
+}
+
+.section-bg-dark {
+  background-color: $dark;
+  background-image: url(/react/Tarasca/images/bg-pattern.png);
+  background-repeat: repeat;
+}
+
+.section-bg-light {
+  background-image: radial-gradient(#CAD1E0 6%, transparent 6%), radial-gradient(#CAD1E0 6%, transparent 6%);
+  background-color: #fff;
+  background-position: 0 0, 50px 50px;
+  background-size: 20px 20px;
+}
+
+.icon-plus {
+  text-align: center;
+  position: relative;
+  height: 20px;
+  span {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: $dark;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -10px;
+    &:first-child {
+      transform: rotate(90deg);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -10px;
+    }
+  }
+}

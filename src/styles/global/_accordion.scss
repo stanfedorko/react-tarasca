@@ -1,0 +1,101 @@
+
+.accordion-secondary {
+  .card {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  .card-header {
+    border-bottom: none;
+    @include media-breakpoint-down(xs) {
+      padding: 0;
+    }
+  }
+  .card-body {
+    padding: 5px 20px 40px 40px;
+    @include media-breakpoint-down(xs) {
+      padding: 5px 10px 10px 10px;
+    }
+  }
+  &--btn-link {
+    padding: 14px 40px 14px 20px;
+    position: relative;
+    i {
+      color: $warning;
+      position: absolute;
+      right: 21px;
+      top: 50%;
+      line-height: 24px;
+      margin-top: -12px;
+    }
+    .fa-plus {
+      display: none;
+    }
+    .fa-minus {
+      display: inline-block;
+    }
+    &.collapsed {
+      .fa-plus {
+        display: inline-block;
+      }
+      .fa-minus {
+        display: none;
+      }
+    }
+  }
+}
+
+
+#accordionMainOne {
+  .accordion-main-card {
+    border: 1px solid rgba(184, 184, 184, 0.25);
+    border-radius: 10px;
+  }
+}
+
+.accordion-main {
+  &-card {
+    margin-bottom: 15px;
+    border: 1px solid rgba(184, 184, 184, 0.25);
+    border-radius: 10px;
+  }
+  &--btn-link {
+    font-size: rem(22);
+    font-weight: 700;
+    position: relative;
+    padding: 25px 40px 25px 30px;
+    @include media-breakpoint-down(xs) {
+      padding: 20px 40px 20px 15px;
+    }
+    &::before {
+      content: "\f078";
+      display: inline-block;
+      font-family: "Font Awesome 5 Free";
+      position: absolute;
+      right: 18px;
+      top: 50%;
+      line-height: 24px;
+      margin-top: -12px;
+      transform: rotateX(180deg);
+      color: #676767;
+    }
+    &.collapsed {
+      &::before {
+        transform: rotateX(0deg);
+      }
+    }
+  }
+}
+
+.accordion-main-card > .card-header {
+  @include media-breakpoint-down(sm) {
+    padding: 5px;
+  }
+  @include media-breakpoint-down(xs) {
+    padding: 0px;
+  }
+}
+

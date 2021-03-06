@@ -1,0 +1,54 @@
+
+
+@import 'global/mixins';
+
+
+
+// Body
+//
+$body-bg: #fff;
+$body-color: #fff;
+
+
+
+
+
+//== colors
+$primary: #0056F5;
+// $secondary: #0f0;
+$success: #099D2F;
+// $danger: #f00;
+$warning: #F18800;
+$info: #B2D6E4;
+$light: #f2f2f2;
+$dark: #1D1D1D;
+
+
+
+//== Typography
+$font-size-base: 16;
+$font-family-base: 'Nunito Sans', sans-serif;
+
+$headings-font-family:    inherit;
+$headings-font-weight:    400;
+$headings-line-height:    1.1;
+$headings-color:          inherit;
+
+
+
+
+
+$btn-padding-y: 12px;
+$btn-padding-x: 43px;
+$btn-border-radius: 3px;
+// $btn-transition: 
+
+
+
+// $h1-font-size:   $font-size-base * 5.5;
+// $h2-font-size:   $font-size-base * 2;
+// $h3-font-size:   $font-size-base * 1.75;
+// $h4-font-size:   $font-size-base * 1.5;
+// $h5-font-size:   $font-size-base * 1.25;
+// $h6-font-size:   $font-size-base;
+

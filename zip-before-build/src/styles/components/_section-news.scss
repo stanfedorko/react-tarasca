@@ -1,0 +1,23 @@
+.section-news {
+  padding: 50px 0;
+  .container {
+    max-width: 960px;
+  }
+  .section--luminous-point {
+    &.primary {
+      left: auto;
+      right: 8%;
+      top: 4%;
+    }
+    &.warning {
+      left: 8%;
+      top: 8%;
+    }
+    &.danger {
+      left: auto;
+      top: auto;
+      right: 6%;
+      bottom: 20%;
+    }
+  }
+}

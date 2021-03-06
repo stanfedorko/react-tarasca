@@ -1,0 +1,32 @@
+
+@import 'global/variables';
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+@import 'global/font-style';
+@import 'global/form';
+@import 'global/pagination';
+@import 'global/card';
+@import 'global/accordion';
+@import 'global/typography';
+
+
+
+// components
+@import 'components/header';
+@import 'components/section';
+@import 'components/section-home';
+@import 'components/section-about';
+@import 'components/section-start-collection';
+@import 'components/section-how-buy';
+@import 'components/section-subscribe';
+@import 'components/section-faq';
+@import 'components/crypto-card';
+@import 'components/form-subscribe';
+@import 'components/section-news';
+@import 'components/news-card';
+@import 'components/single-news';
+@import 'components/footer';
+

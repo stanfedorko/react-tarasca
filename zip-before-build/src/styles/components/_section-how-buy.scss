@@ -1,0 +1,137 @@
+.section-how-buy {
+  &--title {
+    line-height: 62px;
+    margin-bottom: 20px;
+  }
+  &--subtitle {
+    margin-bottom: 50px;
+  }
+  &--card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include media-breakpoint-down(lg) {
+      flex-wrap: wrap;
+    }
+  }
+  &--card {
+    display: block;
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+    z-index: 1;
+    margin: 15px;
+    margin-bottom: 45px;
+    @include media-breakpoint-down(md) {
+      margin: 5px;
+      margin-bottom: 40px;
+    }
+    &-front {
+      text-align: center;
+      padding: 40px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 335px;
+      border: 5px solid #F3F3F3;
+      background-color: #FAFAFA;
+      min-height: 500px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content: center;
+      z-index: 2;
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+      @include media-breakpoint-down(sm) {
+        max-width: 242px;
+        padding: 15px;
+        min-height: 400px;
+      }
+    }
+    &-back {
+      opacity: 0;
+      display: block;
+      padding: 30px;
+      background-color: #F3F3F3;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 335px;
+      min-height: 500px;
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transition: all 0.3s ease-in-out;
+      transform: rotateY(-180deg);
+      @include media-breakpoint-down(sm) {
+        max-width: 242px;
+        padding: 15px;
+        min-height: 400px;
+      }
+    }
+    &-img {
+      display: block;
+      height: 114px;
+      width: 114px;
+      background-color: #ECECEC;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+        max-width: 52px;
+      }
+    }
+    &-title {
+      margin-bottom: 60px;
+      color: #212121;
+      line-height: 34px;
+    }
+    &-text {
+      @include media-breakpoint-down(sm) {
+        overflow-x: scroll;
+        height: 100%;
+        position: relative;
+      }
+      p {
+        margin-bottom: 30px;
+        color: #1d1d1d;
+        line-height: 26px;
+        font-size: rem(14);
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 14px;
+          line-height: 22px;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &:hover {
+      text-decoration: none;
+    }
+    &:hover .section-how-buy--card-front {
+      z-index: -1;
+      transform: rotateY(180deg);
+      opacity: 0;
+    }
+    &:hover .section-how-buy--card-back {
+      opacity: 1;
+      z-index: 2;
+      transform: rotateY(0deg);
+    }
+  }
+  .section--luminous-point {
+    &.primary {
+      left: 2%;
+      bottom: 10%;
+      top: auto;
+    }
+  }
+}

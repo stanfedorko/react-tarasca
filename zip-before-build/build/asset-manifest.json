@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react/Tarasca/static/css/main.8319b239.chunk.css",
+    "main.js": "/react/Tarasca/static/js/main.aa1a077e.chunk.js",
+    "main.js.map": "/react/Tarasca/static/js/main.aa1a077e.chunk.js.map",
+    "runtime-main.js": "/react/Tarasca/static/js/runtime-main.4ac9c471.js",
+    "runtime-main.js.map": "/react/Tarasca/static/js/runtime-main.4ac9c471.js.map",
+    "static/js/2.9f14a42d.chunk.js": "/react/Tarasca/static/js/2.9f14a42d.chunk.js",
+    "static/js/2.9f14a42d.chunk.js.map": "/react/Tarasca/static/js/2.9f14a42d.chunk.js.map",
+    "index.html": "/react/Tarasca/index.html",
+    "precache-manifest.8895358ab64d205e1b0f844eb5cc571f.js": "/react/Tarasca/precache-manifest.8895358ab64d205e1b0f844eb5cc571f.js",
+    "service-worker.js": "/react/Tarasca/service-worker.js",
+    "static/css/main.8319b239.chunk.css.map": "/react/Tarasca/static/css/main.8319b239.chunk.css.map",
+    "static/js/2.9f14a42d.chunk.js.LICENSE.txt": "/react/Tarasca/static/js/2.9f14a42d.chunk.js.LICENSE.txt",
+    "static/media/about-img.svg": "/react/Tarasca/static/media/about-img.f0913788.svg",
+    "static/media/card-04.png": "/react/Tarasca/static/media/card-04.42c4d060.png",
+    "static/media/card-12.png": "/react/Tarasca/static/media/card-12.cd61401c.png",
+    "static/media/card-26.png": "/react/Tarasca/static/media/card-26.b7f8d466.png",
+    "static/media/card-48.png": "/react/Tarasca/static/media/card-48.4083de86.png",
+    "static/media/card-50.png": "/react/Tarasca/static/media/card-50.3b877445.png",
+    "static/media/danger-figure.svg": "/react/Tarasca/static/media/danger-figure.b6121005.svg",
+    "static/media/footer-logo.svg": "/react/Tarasca/static/media/footer-logo.dfcd4a92.svg",
+    "static/media/logo.svg": "/react/Tarasca/static/media/logo.63cfca88.svg",
+    "static/media/primary-figure.svg": "/react/Tarasca/static/media/primary-figure.528956ce.svg",
+    "static/media/warning-figure.svg": "/react/Tarasca/static/media/warning-figure.396c0f89.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ac9c471.js",
+    "static/js/2.9f14a42d.chunk.js",
+    "static/css/main.8319b239.chunk.css",
+    "static/js/main.aa1a077e.chunk.js"
+  ]
+}

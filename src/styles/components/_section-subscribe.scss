@@ -1,0 +1,25 @@
+
+.section-subscribe {
+  &-title {
+    margin-bottom: 20px;
+  }
+  &-subtitle {
+    margin-bottom: 40px;
+  }
+  .section--luminous-point {
+    &.primary {
+      left: auto;
+      right: 7%;
+      top: 4%;
+    }
+    &.warning {
+      left: 10%;
+      top: auto;
+      bottom: 10%;
+    }
+    &.danger {
+      left: 0;
+      top: 40%;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.news-card {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: block;
+  &:hover {
+    text-decoration: none;
+  }
+  &:hover .news-card-img img {
+    width: 118%;
+    max-width: 118%;
+  }
+  &-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    height: 180px;
+    img {
+      width: 115%;
+      max-width: 115%;
+      position: absolute;
+      top: -20%;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  &-date {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: rem(10);
+    margin-bottom: 14px;
+    color: #fff;
+  }
+  &-title {
+    margin-bottom: 13px;
+    color: #fff;
+    font-weight: 400;
+  }
+  &-text {
+    font-weight: 400;
+    font-size: rem(14);
+    margin-bottom: 0;
+    color: #838383;
+  }
+}

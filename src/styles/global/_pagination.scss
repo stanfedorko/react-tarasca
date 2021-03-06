@@ -1,0 +1,64 @@
+.pagination {
+  justify-content: center;
+}
+
+.page-link {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin-left: 0;
+  margin-right: 9px;
+  font-weight: 600;
+  @include media-breakpoint-down(xs) {
+    margin-right: 6px;
+  }
+}
+
+.pagination-lg .page-item:first-child .page-link {
+  border-radius: 8px;
+}
+
+.pagination-lg .page-item:last-child .page-link {
+  border-radius: 8px;
+  margin-right: 0;
+}
+
+.page-link:focus {
+  box-shadow: 0 0 0 0.2rem rgba(68, 68, 68, 0.5);
+}
+.page-link:hover,
+.page-item.active .page-link {
+  background-color: #161616;
+  color: #fff;
+}
+
+.pagination-lg .page-link {
+  font-size: rem(14);
+  padding: 1.157rem 0.3rem;
+  line-height: 13px;
+  width: 50px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  @include media-breakpoint-down(xs) {
+    width: 40px;
+    padding: 0.844rem 0.3rem;
+  }
+}
+
+.page-item.disabled .page-link {
+  background-color: #333;
+}
+
+.page-item.dots .page-link {
+  background-color: transparent;
+  color: #fff;
+  width: 44px;
+  &:hover {
+    cursor: default;
+  }
+  @include media-breakpoint-down(xs) {
+    width: 38px;
+  }
+}

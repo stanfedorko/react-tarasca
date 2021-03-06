@@ -1,0 +1,29 @@
+.form-control {
+  background-color: $dark;
+  border-radius: 4px;
+  height: calc(3.5em + 0.75rem + 2px);
+  color: #565656;
+  font-weight: 300;
+  border-color: #B8B8B8;
+  padding-left: 30px;
+  padding-right: 30px;
+  &:focus {
+    background-color: $dark;
+    outline: none;
+    box-shadow: none;
+    border-color: #B8B8B8;
+    color: #B8B8B8;
+  }
+  &::-webkit-input-placeholder {
+    color: #565656;
+  }
+  &:-moz-placeholder {
+    color: #565656;
+  }
+  &::-moz-placeholder {
+    color: #565656;
+  }
+  &:-ms-input-placeholder {
+    color: #565656;
+  }
+}
